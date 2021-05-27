@@ -5,3 +5,7 @@ python:
 
 script:
    - python test.py
+
+notifications:
+  email:
+    - 1841187753@qq.com

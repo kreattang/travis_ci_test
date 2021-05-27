@@ -8,4 +8,8 @@ script:
 
 notifications:
   email:
-    - 1841187753@qq.com
+    recipients:
+      - 1841187753@qq.com
+    on_success: never # default: change
+    on_failure: always # default: always
+
